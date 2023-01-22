@@ -1,0 +1,5 @@
+n_neighbors : [5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 55, 60, 65, 70, 75, 80, 85, 90, 95]-> figure name: validation_curve_1
+weights : ['uniform', 'distance']-> figure name: validation_curve_2
+algorithm : ['auto', 'ball_tree', 'kd_tree', 'brute']-> figure name: validation_curve_3
+leaf_size : [30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330, 360, 390, 420, 450, 480, 510, 540, 570]-> figure name: validation_curve_4
+p : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]-> figure name: validation_curve_5

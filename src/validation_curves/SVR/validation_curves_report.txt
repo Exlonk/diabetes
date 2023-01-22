@@ -1,0 +1,4 @@
+kernel : ['sigmoid', 'linear', 'poly', 'rbf']-> figure name: validation_curve_1
+gamma : ['scale', 'auto']-> figure name: validation_curve_2
+degree : [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]-> figure name: validation_curve_3
+coef0 : [0, 1, 2, 3, 4, 5, 10, 20, 30, 40, 50, 100]-> figure name: validation_curve_4
