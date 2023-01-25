@@ -623,7 +623,7 @@ app.layout = dbc.Container([
     dbc.Row(dbc.Col([html.H2('Raw Data Insights')],width=12,    
     style={"padding-top":"1rem","padding-bottom":"1rem","textAlign":"center"})),
 
-    dbc.Row(dbc.Col([html.P('This small dataset shows the progress of diabetes \
+    dbc.Row(dbc.Col([html.P('This dataset shows the progress of diabetes \
     as a number. Because of this, it is a supervised regression problem and the \
     estimators used to model it can be very wide.')])),
 
